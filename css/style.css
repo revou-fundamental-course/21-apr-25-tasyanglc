@@ -1,3 +1,114 @@
-header {
+body {
+    max-width: 800px;
     display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.judul-utama {
+    background-color: #e96846;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px gray;
+    justify-items: center;
+}
+
+#judul-utama {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+}
+
+img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.kolom-satu {
+    max-width: 50%;
+    padding: 10px;
+}
+
+.menu-button {
+    margin-top: 25px;
+}
+
+.kolom-dua {
+    max-width: 50%;
+}
+
+.convert-box-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc833;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+ 
+
+textarea {
+    resize: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* biar ada jarak antar tombol */
+    margin-bottom: 10px;
+}
+
+.button-item {
+    color: white;
+    background-color: #205bef; 
+    border-radius: 15px;
+    padding: 10px 20px;
+    min-width: 100px; /* bikin lebar seragam */
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.formula-box-1 {
+    background-color: #01ca7f;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.convert-box-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #01ca7f;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.formula-box-2 {
+    background-color: #ffc833;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+button {
+    box-shadow: 0px 4px 8px gray;
 }
